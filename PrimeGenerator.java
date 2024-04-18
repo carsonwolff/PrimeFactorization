@@ -44,6 +44,7 @@ public class PrimeGenerator {
             System.out.println("Please enter a number greater than 3");
             n = getNumFromUser();
         }
+        in.close();
         return n;
     }
     public ArrayList<Long> getPrimes() {

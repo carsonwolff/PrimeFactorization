@@ -39,6 +39,7 @@ public class PrimeFactorizer {
             System.out.println("Please enter a number greater than 1");
             n = getNumFromUser();
         }
+        in.close();
         return n;
     }
     public void printPrimes(){
